@@ -1,0 +1,7 @@
+# File này cho Wokwi extension biết firmware build ra nằm ở đâu
+# PlatformIO build ESP32-S3 sẽ tạo ra các file này trong thư mục .pio
+
+[wokwi]
+version = 1
+firmware = '.pio/build/esp32-s3-devkitc-1/firmware.bin'
+elf = '.pio/build/esp32-s3-devkitc-1/firmware.elf'
