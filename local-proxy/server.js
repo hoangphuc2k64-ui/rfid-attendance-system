@@ -4,7 +4,7 @@ const url = require('url');
 
 // Server local (node) sẽ thay thế cho việc ESP32 giao tiếp trực tiếp với Google Apps Script
 // tất cả ESP32 bị lỗi giao tiếp trực tiếp với gia thức HTTPS, nó chỉ giao tiếp HTTP bình 
-const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbynVIVcbiFgEvteszJFuO149s0-0at7nUNCt1ZfesnmE0xWlvPb5tCImHc4UvGkvPOC1Q/exec';
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxbElzi8vdpJyp566J2rn-B0otqUfq-iLAoqn_syNq_x8yYZXglcbXNNllwK0GG8Fah6w/exec';
 
 const PORT = 3000;
 
